@@ -1,5 +1,5 @@
 # docker-dockerauth
-alpine version of docker_auth - https://github.com/cesanta/docker_auth
+bussybox version of docker_auth - https://github.com/cesanta/docker_auth
 
 ## Environment variables
 - **AUTH_SERVER** _default_ "/docker_auth/auth_server"
