@@ -13,6 +13,7 @@ RUN opkg-install openssl-util
 
 ENV AUTH_SERVER "/docker_auth/auth_server"
 ENV AUTH_CONFIG "/config/auth_config.yml"
+ENV COMMON_NAME ""
 
 COPY entrypoint.sh /
 ENTRYPOINT [ "/entrypoint.sh" ]
